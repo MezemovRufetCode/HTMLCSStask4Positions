@@ -5,9 +5,10 @@
 body {
   height: 600vh;
 }
-p {
-  margin-left: 40px;
-  margin-right: 40px;
+p{
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 20px;
 }
 .mainbox {
   top: 0px;
@@ -19,62 +20,62 @@ p {
   margin-left: 16px;
   margin-right: 16px;
 }
-.box1 {
-  display: inline-block;
-  background-color: yellow;
-  width: 80px;
+.box1{
+  width:5%;
   height: 70px;
+  background-color: yellow;
+  display: inline-block;
   position: relative;
   left: 30px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.box2 {
+.box2{
   display: inline-block;
   background-color: yellow;
   height: 70px;
-  width: 800px;
+  width: 55%;
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  left: 185px;
+  left: 12%;
 }
+
 .box2-1 {
   display: inline-block;
   position: absolute;
   background-color: rgb(73, 167, 230);
-  width: 200px;
+  width: 23%;
   height: 53px;
-  left: 50px;
+  left: 6%;
   top: 14px;
 }
-
 .box2-1-1 {
   display: inline-block;
   position: absolute;
   background-color: crimson;
-  width: 50px;
+  width: 25%;
   height: 40px;
   top: 0px;
   right: 0px;
 }
 .box2-2 {
   display: inline-block;
-  width: 200px;
+  width: 25%;
   height: 49px;
   position: absolute;
   background-color: rgb(73, 167, 230);
   bottom: 1px;
-  left: 350px;
+  left: 43%;
 }
 .box2-3 {
   display: inline-block;
-  width: 90px;
+  width: 11%;
   height: 49px;
   position: absolute;
-  right: 20px;
+  right: 2%;
   bottom: 1px;
   background-color: rgb(73, 167, 230);
 }
@@ -82,20 +83,20 @@ p {
   display: inline-block;
   position: absolute;
   background-color: yellow;
-  width: 130px;
+  width: 8%;
   height: 70px;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  right: 80px;
+  right: 5%;
 }
 .box3-1 {
   display: inline-block;
   position: absolute;
   background-color: yellow;
-  border: 4px solid rgb(27, 173, 27);
-  width: 50px;
+  border: 5px solid rgb(27, 173, 27);
+  width: 43%;
   height: 50px;
-  right: 33px;
+  right: 23%;
   top: 6px;
 }
